@@ -1,0 +1,14 @@
+查看git版本：git --version
+查看东西：git config --global
+初始化用户名：git config --global user.name "名字"
+初始化邮箱：git config --global user.email "邮箱名"
+查看初始化信息：git config --list
+初始化工作区：git init
+查看工作区的文件的状态：git status
+从工作区添加到暂存区 的命令：git add 建立好的文件名称.后缀名
+从暂存区添加到版本库的命令：git commit -m"附加信息"
+
+修改以后再输入命令添加 先添加到暂存区再添加到版本库
+
+查看历史版本信息：git log  会显示操作人 操作日期 添加的内容
+查看版本号：git reflog
